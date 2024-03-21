@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+  background-color: hsl(0, 0%, 12%);
+  /*background: linear-gradient(135deg, #044f48, #2a7561);*/
+}
+
+.welcome-message {
+  /*font-family: Arial,sans-serif;*/
+  font-size: 1em;
+  background: rgba(0, 0, 0, 0.3);
+  color:rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 1px;
+  text-align: center;
+}
+.login-prompt{
+  font-family: Arial,sans-serif;
+  font-size: 1em;
+  background-color: hsl(3, 100%, 42%);
+  color:white;
+  padding: 10px;
+  border-radius: 5px;
+  margin:0;
+}
+
+.card{
+  
+  border:1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  
+  padding: 20px;
+  margin:10px ;
+  text-align:center;
+
+  max-width: 250px;
+  display:inline-block;
+
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius:50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial,sans-serif;
+  margin: 0;
+  color:hsl(0, 0%, 100%);
+}
+
+.card .card-text {
+  color:hsl(0, 0%, 100%,0.8);
+  background: hsla(0, 0%, 0%, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.student {
+  font-family: Arial,sans-serif;
+  font-size:1em;
+  padding:10px;
+
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+  color:hsl(0, 0%, 30%);
+
+  margin:5px;
+}
+
+.student p{
+  margin:0;
+}
+
+.block1 {
+  text-align:center;
+}
