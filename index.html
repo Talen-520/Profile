@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="google-site-verification" content="RKisONmlQEwkiWqf4-Od9kV7C70AGfB71uIbWUQzuSQ" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + Preact</title>
@@ -12,6 +13,7 @@
 
     <div id="app"></div>
   </body>
+  <!--
   <script>
     window.embeddedChatbotConfig = {
     chatbotId: "kr53qOnEOe83sjNyM4LmS",
@@ -24,4 +26,28 @@
     domain="www.chatbase.co"
     defer>
     </script>
+-->
+<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  location="us-central1"
+  project-id="watchful-goods-213222"
+  agent-id="4d875851-a2bf-4898-aa61-512eca5eb49f"
+  language-code="en"
+  max-query-length="-1">
+  <df-messenger-chat-bubble
+   chat-title="Tao&#x27;s ChatAgent">
+  </df-messenger-chat-bubble>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+  }
+</style>
+    
 </html>
+
+
